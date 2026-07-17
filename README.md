@@ -6,116 +6,114 @@
   <img src="https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
   <img src="https://img.shields.io/badge/Tauri-2-24C8DB?style=for-the-badge&logo=tauri&logoColor=white" alt="Tauri" />
   <img src="https://img.shields.io/badge/Supabase-Database-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" />
 </div>
 
-EcoTouch ERP is a refined, high-performance business management platform crafted for modern organizations that need clarity, control, and speed across operations. From procurement to production, inventory to approvals, the system delivers a unified experience designed for daily execution and strategic oversight.
+<p align="center">
+  <strong>A modern ERP experience for operations, inventory, production, and decision-making.</strong>
+</p>
 
-## Executive Overview
+<p align="center">
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/line-break.png" alt="divider" />
+</p>
 
-EcoTouch ERP combines elegant interface design with practical workflow automation to help teams manage:
+EcoTouch ERP is a polished, high-performance business management platform designed for teams that need speed, structure, and clarity across procurement, production, inventory, attendance, and approvals. Its interface blends modern UI design with practical workflow automation to support both daily operations and strategic insight.
 
-- Procurement and inward operations
-- Production planning and BOM workflows
-- Inventory and raw material control
-- Sales, dispatch, and outward processes
-- Attendance, worker coordination, and approvals
-- Reporting and analytics with business intelligence in mind
+## ✨ Highlights
 
-## Premium Features
+- Sleek, responsive dashboard experience
+- Unified workflows for inward, outward, and production processes
+- Smart inventory and material management
+- Role-based navigation and approval systems
+- Reporting and analytics designed for operational visibility
+- Desktop-ready deployment with Tauri for a native feel
 
-- Modern, responsive dashboard experience
-- Role-based navigation and access structure
-- Streamlined management for products, materials, and inventory
-- Operational modules for production, logistics, and vehicles
-- Approval workflows and user administration
-- Desktop-ready deployment with Tauri for a native experience
+## 🧩 Core Modules
 
-## Technology Stack
+- Dashboard & analytics
+- Inward and outward operations
+- Production planning and BOM management
+- Inventory, materials, and products
+- Workers, users, roles, and approvals
+- Logistics, vehicles, and reporting
 
-- React 19 with TypeScript
-- Vite for fast local development and optimized builds
-- Tailwind CSS for polished, scalable UI design
-- TanStack Query for efficient async state handling
-- Recharts for rich dashboards and data visualization
-- Supabase for authentication and database integration
+## 🛠️ Tech Stack
+
+- React 19 + TypeScript
+- Vite for lightning-fast development
+- Tailwind CSS for modern UI styling
+- TanStack Query for state and data flow
+- Recharts for interactive charts and insights
+- Supabase for authentication and storage
 - Tauri for desktop application packaging
 
-## Project Architecture
+## 📁 Project Structure
 
-- src/pages — core application views and business modules
-- src/components — reusable interface and feature components
+- src/pages — application screens and business views
+- src/components — reusable UI and feature components
 - src/hooks — custom hooks for realtime and resource handling
-- src/lib — shared utilities, API integration, and formatting helpers
-- src-tauri — native desktop configuration and packaging
+- src/lib — shared utilities, formatting, and API helpers
+- src-tauri — desktop integration and packaging configuration
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
-Ensure the following are installed on your machine:
+Make sure the following are installed:
 
-- Node.js 20 or newer
+- Node.js 20+
 - npm or pnpm
-- Rust and the required Tauri dependencies for desktop builds
+- Rust and Tauri prerequisites for desktop builds
 
 ### Installation
 
-1. Clone the repository
-   ```bash
-   git clone https://github.com/your-username/ecotouch-erp.git
-   cd ecotouch-erp
-   ```
+```bash
+git clone https://github.com/your-username/ecotouch-erp.git
+cd ecotouch-erp
+npm install
+```
 
-2. Install dependencies
-   ```bash
-   npm install
-   ```
+### Environment Setup
 
-3. Configure environment variables
+Create a .env file in the project root:
 
-   Create a .env file in the project root with your Supabase credentials:
-   ```env
-   VITE_SUPABASE_URL=your_supabase_project_url
-   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-   ```
+```env
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
 
-### Run the web application
+### Run Locally
 
 ```bash
 npm run dev
 ```
 
-Open the local app at http://localhost:1420.
-
-### Run the desktop application
+### Run Desktop App
 
 ```bash
 npm run tauri dev
 ```
 
-### Build for production
+### Build for Production
 
 ```bash
 npm run build
 ```
 
-## Development Philosophy
+> The application is designed to run both as a web app and as a desktop experience, giving teams flexibility without sacrificing consistency.
 
-The product is designed to balance simplicity and sophistication, giving teams a dependable system that feels modern, intuitive, and enterprise-ready.
+## 🌐 Why It Matters
 
-## Contributing
+EcoTouch ERP is built to reduce friction between operations and management, helping teams make faster decisions with better visibility and less manual overhead.
 
-Contributions are welcome. If you would like to help improve the platform, please:
+## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Open a pull request
+Contributions are welcome. Please fork the repository, create a feature branch, and open a pull request with your changes.
 
-## License
+## 📄 License
 
-This project is distributed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Contact
+## 📬 Contact
 
-For inquiries, feedback, or collaboration, please open an issue or start a discussion in the repository.
+For questions, feedback, or collaboration, please open an issue or start a discussion in the repository.
