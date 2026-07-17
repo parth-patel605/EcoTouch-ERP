@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/line-break.png" />
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/line-break.png" alt="divider" />
 </p>
 
 EcoTouch ERP is a polished, high-performance business management platform designed for teams that need speed, structure, and clarity across procurement, production, inventory, attendance, and approvals. Its interface blends modern UI design with practical workflow automation to support both daily operations and strategic insight.
